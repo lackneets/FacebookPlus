@@ -1,0 +1,144 @@
+@charset "UTF-8";
+.sidebarMode .fbChatSidebar:hover, #fbDockChatBuddylistNub {
+  z-index: 9999; }
+
+.sidebarMode .fbChatSidebar * {
+  -webkit-transition: opacity 0.3s, left 0.3s !important; }
+
+div.uiContextualDialogFixed[data-ownerid*="js_"] {
+  display: none !important; }
+
+.sidebarMode .fbChatSidebar {
+  width: 55px !important; }
+  .sidebarMode .fbChatSidebar .fbSidebarGripper, .sidebarMode .fbChatSidebar .name, .sidebarMode .fbChatSidebar ._52zl {
+    display: none !important; }
+  .sidebarMode .fbChatSidebar .icons, .sidebarMode .fbChatSidebar .icon_container {
+    position: relative !important;
+    left: -145px !important; }
+  .sidebarMode .fbChatSidebar .fbChatTypeahead {
+    width: 120px !important; }
+    .sidebarMode .fbChatSidebar .fbChatTypeahead.hasValue {
+      position: relative !important;
+      left: -100px !important;
+      width: 200px !important;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 1px 4px 0px !important; }
+
+/*Alis of above 2013.1.16*/
+.fbChatSidebar .fbChatTypeahead:hover {
+  position: relative !important;
+  left: -100px !important;
+  width: 200px !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 1px 4px 0px !important; }
+
+.fbChatTypeahead:active, .fbChatTypeahead:focus {
+  position: relative !important;
+  left: -100px !important;
+  width: 200px !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 1px 4px 0px !important; }
+
+.sidebarMode .fbChatSidebar .uiTypeahead {
+  position: absolute !important;
+  top: -24px !important; }
+
+.fbChatSidebar:not(:hover) .fbChatOrderedList li:not(.active) {
+  opacity: 0.3 !important; }
+
+.sidebarMode .fbChatSidebar .fbChatOrderedList {
+  padding-bottom: 30px !important; }
+.sidebarMode .fbChatSidebar .fbChatTypeaheadView {
+  margin-bottom: 30px !important; }
+.sidebarMode .fbx #globalContainer, .sidebarMode .fbx #pageHead {
+  padding-right: 55px !important; }
+.sidebarMode #blueBar #pageHead {
+  padding-right: 55px !important; }
+.sidebarMode .fbDockWrapper {
+  right: 60px !important; }
+.sidebarMode .fbChatSidebar .fbChatOrderedList li {
+  position: relative !important;
+  background: white !important; }
+  .sidebarMode .fbChatSidebar .fbChatOrderedList li:hover {
+    left: -100px !important;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 1px 1px 5px 0px !important;
+    z-index: 99 !important; }
+    .sidebarMode .fbChatSidebar .fbChatOrderedList li:hover .name, .sidebarMode .fbChatSidebar .fbChatOrderedList li:hover ._52zl {
+      display: block !important; }
+    .sidebarMode .fbChatSidebar .fbChatOrderedList li:hover .icon {
+      display: none !important; }
+  .sidebarMode .fbChatSidebar .fbChatOrderedList li.active:hover {
+    -webkit-box-shadow: #6ea954 0px 0px 2px 2px !important; }
+  .sidebarMode .fbChatSidebar .fbChatOrderedList li.active.mobile:hover {
+    -webkit-box-shadow: #6699ff 0px 0px 2px 2px !important; }
+.sidebarMode .fbChatSidebar div {
+  overflow: visible !important; }
+.sidebarMode .fbChatSidebar .uiScrollableAreaWrap {
+  overflow: hidden !important; }
+.sidebarMode .fbChatSidebar .fbChatSidebarBody .uiScrollableAreaWrap {
+  overflow: hidden !important;
+  width: 300px !important;
+  padding-left: 0px !important;
+  left: 0px !important;
+  -webkit-transition: none !important; }
+.sidebarMode .fbChatSidebar .fbChatSidebarBody:hover .uiScrollableAreaWrap {
+  overflow: hidden !important;
+  width: 300px !important;
+  padding-left: 120px !important;
+  left: -120px !important; }
+.sidebarMode .fbChatSidebar .uiScrollableAreaTrack {
+  z-index: 100 !important; }
+.sidebarMode .fbChatSidebar .fbChatSidebarFooter table td {
+  background: white !important; }
+
+/*抽取式*/
+/*
+.uiContextualDialogPositioner {
+		margin-left: -45px !important;}
+*/
+/*pagelet_ticker*/
+#pagelet_ticker {
+  display: block !important;
+  height: 0px !important; }
+
+.fbChatSidebar .fbFeedTicker {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 5px 0px !important;
+  -webkit-transition: margin-left 0.3s !important;
+  background: white !important;
+  height: 100% !important;
+  overflow: hidden !important;
+  position: fixed !important;
+  margin-left: 55px !important;
+  z-index: 200 !important; }
+  .fbChatSidebar .fbFeedTicker .fbFeedTickerStory {
+    background-color: #FFF !important; }
+  .fbChatSidebar .fbFeedTicker .tickerStoryContent {
+    max-width: auto !important; }
+  .fbChatSidebar .fbFeedTicker:hover, .fbChatSidebar .fbFeedTicker:focus, .fbChatSidebar .fbFeedTicker:active {
+    margin-left: -145px !important;
+    z-index: 9999; }
+
+.fbChatSidebarBody {
+  height: 100% !important; }
+
+/* fbChatSidebar */
+.sidebarMode .fbChatSidebar {
+  width: 60px !important; }
+.sidebarMode .fbChatSidebarBody {
+  padding-right: 5px !important; }
+
+.fbChatSidebarFooter {
+  margin-right: 5px !important;
+  background: white !important; }
+
+.fbChatSidebar .uiContextualDialogPositioner {
+  margin-left: 0 !important; }
+.fbChatSidebar table {
+  background: #FFF; }
+
+body .fbChatOrderedList .active .status {
+  background: #6ea954;
+  border-radius: 10px;
+  height: 7px;
+  width: 7px; }
+body .fbChatOrderedList .active.mobile .status {
+  background: #6699ff; }
+body .fbChatOrderedList ._5t30 {
+  display: none; }

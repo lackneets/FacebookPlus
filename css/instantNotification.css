@@ -1,0 +1,8 @@
+#fbNotificationsFlyout.toggleTargetClosed.hasNew{display:block!important;padding:0!important;-webkit-transition: opacity 0.3s linear !important;}
+#fbNotificationsFlyout.toggleTargetClosed.hasNew .uiScrollableArea{height:100%!important;}
+#fbNotificationsFlyout.toggleTargetClosed.hasNew .jewelHeader,
+#fbNotificationsFlyout.toggleTargetClosed.hasNew .jewelBeeperHeader,
+#fbNotificationsFlyout.toggleTargetClosed.hasNew .notification:not(.first-3),
+#fbNotificationsFlyout.toggleTargetClosed.hasNew .notifMorePager,
+#fbNotificationsFlyout.toggleTargetClosed.hasNew .notification.seen,
+#fbNotificationsFlyout.toggleTargetClosed.hasNew .jewelFooter{display:none!important;}

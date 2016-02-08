@@ -1,0 +1,35 @@
+﻿
+.fbNubFlyout {
+    height: 500px !important;
+    width: 300px !important;
+    margin-left:3px !important;
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0px 8px 1px !important;
+}
+
+.fbNub  {
+    width: auto !important;
+    min-width: 80px !important;
+    z-index:350 !important;;
+}
+
+.fbNub.active {
+    min-width: 120px !important;
+}
+.fbNub.opened{
+    min-width: 260px !important;
+    z-index:400 !important;;
+}
+
+.fbNub.focusedTab {z-index:999 !important;}
+.fbNub.opened:hover {z-index: 1999 !important;;}
+
+.fbNub .wrapWrapper {
+    margin-right: 20px !important;
+}
+.fbNub .chatIconsContainer{right:0px!important;}
+
+.active_time {display:none!important;}
+
+/*Fix 201305*/
+
+._552n{right:0px !important;}

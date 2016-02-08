@@ -1,0 +1,49 @@
+img.coverPhotoImg[src="http://sphotos-h.ak.fbcdn.net/hphotos-ak-snc6/c0.74.851.315/p851x315/256441_426100717429209_287657816_o.jpg"]{ 
+	background-image:url('http://sphotos-a.ak.fbcdn.net/hphotos-ak-ash4/421090_457230474316233_857012136_o.jpg');
+	background-size:100%;
+	height:0px;padding-top:415px;
+	overflow:hidden;
+	margin-top:-70px;
+}
+
+img.scaledImageFitWidth[src="http://sphotos-h.ak.fbcdn.net/hphotos-ak-snc6/p370x247/208889_426100717429209_287657816_n.jpg"]{
+    background-image:url('http://sphotos-a.ak.fbcdn.net/hphotos-ak-ash4/421090_457230474316233_857012136_n.jpg');
+	background-size:100%;
+	height:0px;padding-top:415px;
+	overflow:hidden;
+}
+
+body.birthday_special #blueBar {
+    background-color: #870f0f !important;
+    border-color: #870f0f !important;
+}
+
+body.birthday_special #fbNotificationsJewel.west a.jewelButton {
+    background-image: url(http://static.ak.fbcdn.net/rsrc.php/v2/y0/x/ONTvOQH5A6X.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: auto !important;
+    background-position: 0 -186px !important;
+}
+
+body.birthday_special #pageLogo a:hover {
+    background-color: #ad113d !important;
+}
+
+body.birthday_special .navItem:hover a {
+    background-color: #ad113d !important;
+}
+
+body.birthday_special #navAccountLink:hover {
+    background-color: #ad113d !important;
+}
+
+body.birthday_special .slimHeader #pageLogo a,
+body.birthday_special #pageLogo a {
+    background: url(https://dl.dropbox.com/u/7165134/www/images/fb_logo_birthday.png) -10px 0px no-repeat !important;
+    text-decoration: none !important;
+}
+
+.heartSymbol {
+	background-image: url(http://static.ak.fbcdn.net/rsrc.php/v2/y1/x/czqqtoRx8K8.png) !important;
+	background-position: 0px -168px !important;
+}

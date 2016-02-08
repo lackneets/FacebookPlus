@@ -1,0 +1,13 @@
+.fbDockChatTabFlyout.fbPlusUI a.messageLink{background:url('chrome-extension://__MSG_@@extension_id__/img/resize-icon/D6DAE5.png') no-repeat center center;background-size:11px;display:inline-block;vertical-align:middle;width:13px;height:13px;margin-left:5px;}
+.fbDockChatTabFlyout.fbPlusUI a.messageLink:hover{background-image:url('chrome-extension://__MSG_@@extension_id__/img/resize-icon/C1C1C1.png')}
+/*
+.fbDockChatTabFlyout.fbPlusUI a.profileLink{background:url('chrome-extension://__MSG_@@extension_id__/img/profile-icon/D6DAE5.png') no-repeat center center;background-size:11px;display:inline-block;vertical-align:middle;width:13px;height:13px;margin-left:5px;}
+.fbDockChatTabFlyout.fbPlusUI a.profileLink:hover{background-image:url('chrome-extension://__MSG_@@extension_id__/img/profile-icon/C1C1C1.png')}*/
+
+#jewelContainer.fbPlusUI .switchMute {background: #FFF url('chrome-extension://__MSG_@@extension_id__/img/mute_on.png') no-repeat -4px; margin-left:-21px !important; cursor:pointer;}
+#jewelContainer.fbPlusUI .switchMute.on {background-image: url('chrome-extension://__MSG_@@extension_id__/img/mute_on.png'); }
+#jewelContainer.fbPlusUI .switchMute.off {background-image: url('chrome-extension://__MSG_@@extension_id__/img/mute_off.png');}
+
+#blueBar .rfloat{position:relative}
+#blueBar .fbPlusClock{position:absolute;top:0;left:-18px;line-height:29px;font-smooth:always;-webkit-font-smoothing:antialiased!important;color:#FFF;font-size:26px;cursor:default}
+@font-face{font-family:'DS Digital';font-style:normal;font-weight:400;src:local('DS Digital'), local(DS-Digital), url(chrome-extension://__MSG_@@extension_id__/DSDIGI.woff) format(woff)}

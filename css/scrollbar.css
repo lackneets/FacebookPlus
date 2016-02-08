@@ -1,0 +1,4 @@
+body{overflow:hidden!important;}
+#globalContainer{position:absolute !important;left:0 !important;right:0 !important;bottom:-1px !important;top:40px !important;overflow-y:scroll !important;padding-left:10px !important;padding-right:200px!important;}
+.sidebarMode .fbx #globalContainer{padding-right:30px!important;}
+.uiContextualLayer{margin-right:-10px!important;}

@@ -1,0 +1,55 @@
+﻿{
+	"manifest_version": 2,
+	"name": "FacebookPlus X2",
+	"version": "2.0.0.0",
+	"description": "Facebook 排版優化。臉書經歷過渡時期改版，舊版已經出現許多難以修正的衝突，於是砍掉重練",
+	"icons": {
+		"16": "f2+.png",
+		"128": "f2+.png"
+	},
+	"permissions": [
+		"http://www.facebook.com/*",
+		"https://www.facebook.com/*",
+		"http://apps.facebook.com/*",
+		"https://apps.facebook.com/*",
+		"chrome-extension://*/*"
+	],
+	"web_accessible_resources": [
+		"fb_icon_black.ico",
+		"background.jpg",
+		"blueBar_draw.jpg",
+		"side.jpg",
+		"fb_font_draw.png",
+		"manifest.json",
+		"*.png", "img/*", "*.woff"
+	],
+	"content_scripts": [
+		{
+			"css": [
+				"css/Facebook.css",
+				"css/rightCol.css" ,
+				"css/birthday_special.css",
+				"css/fbChatSidebar.css",
+				"css/pagelet_navigation.css",
+				"css/theme.css",
+				"css/fix201303.css",
+				"css/fbPlusUI.css",
+				"css/instantNotification.css",
+				"css/scrollbar.css",
+				"css/fbPlusVersion.css"
+			],
+			"js" : [
+				"js/jquery.min.js",
+				"js/jquery.livequery.js",
+				"js/jquery-migrate-1.2.1.js" ,
+				"js/content-script.js",
+				"js/fbPlus.mute.js",
+				"js/fbPlusClock.js"
+			],
+			"matches": [
+				"http://www.facebook.com/*",
+				"https://www.facebook.com/*"
+			]
+		}
+	]
+}

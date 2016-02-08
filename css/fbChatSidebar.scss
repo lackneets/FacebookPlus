@@ -1,0 +1,215 @@
+﻿$activeColor: #6ea954;
+$activeMobileColor: #6699ff;
+
+.sidebarMode .fbChatSidebar:hover, #fbDockChatBuddylistNub {
+	z-index: 9999;
+}
+
+.sidebarMode .fbChatSidebar * {
+	-webkit-transition: opacity 0.3s, left 0.3s !important;
+}
+
+div.uiContextualDialogFixed[data-ownerid*="js_"] {
+	display: none !important;
+}
+
+.sidebarMode .fbChatSidebar {
+	width: 55px !important;
+	.fbSidebarGripper, .name, ._52zl {
+		display: none !important;
+	}
+	.icons, .icon_container {
+		position: relative !important;
+		left: -145px !important;
+	}
+	.fbChatTypeahead {
+		width: 120px !important;
+		&.hasValue {
+			position: relative !important;
+			left: -100px !important;
+			width: 200px !important;
+			-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 1px 4px 0px !important;
+		}
+	}
+}
+
+/*Alis of above 2013.1.16*/
+
+.fbChatSidebar .fbChatTypeahead:hover {
+	position: relative !important;
+	left: -100px !important;
+	width: 200px !important;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 1px 4px 0px !important;
+}
+
+.fbChatTypeahead {
+	&:active, &:focus {
+		position: relative !important;
+		left: -100px !important;
+		width: 200px !important;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 1px 4px 0px !important;
+	}
+}
+
+.sidebarMode .fbChatSidebar .uiTypeahead {
+	position: absolute !important;
+	top: -24px !important;
+}
+
+.fbChatSidebar:not(:hover) .fbChatOrderedList li:not(.active) {
+	opacity: 0.3 !important;
+}
+
+.sidebarMode {
+	.fbChatSidebar {
+		.fbChatOrderedList {
+			padding-bottom: 30px !important;
+		}
+		.fbChatTypeaheadView {
+			margin-bottom: 30px !important;
+		}
+	}
+	.fbx {
+		#globalContainer, #pageHead {
+			padding-right: 55px !important;
+		}
+	}
+	#blueBar #pageHead {
+		padding-right: 55px !important;
+	}
+	.fbDockWrapper {
+		right: 60px !important;
+	}
+	.fbChatSidebar {
+		.fbChatOrderedList li {
+			position: relative !important;
+			background: white !important;
+			&:hover {
+				left: -100px !important;
+				-webkit-box-shadow: rgba(0, 0, 0, 0.8) 1px 1px 5px 0px !important;
+				z-index: 99 !important;
+				.name, ._52zl {
+					display: block !important;
+				}
+				.icon {
+					display: none !important;
+				}
+			}
+			&.active:hover {
+				-webkit-box-shadow: $activeColor 0px 0px 2px 2px	 !important;
+			}
+			&.active.mobile:hover {
+				-webkit-box-shadow: $activeMobileColor 0px 0px 2px 2px	 !important;
+			}
+		}
+		div {
+			overflow: visible !important;
+		}
+		.uiScrollableAreaWrap {
+			overflow: hidden !important;
+		}
+		.fbChatSidebarBody {
+			.uiScrollableAreaWrap {
+				overflow: hidden !important;
+				width: 300px !important;
+				padding-left: 0px !important;
+				left: 0px !important;
+				-webkit-transition: none !important;
+			}
+			&:hover .uiScrollableAreaWrap {
+				overflow: hidden !important;
+				width: 300px !important;
+				padding-left: 120px !important;
+				left: -120px !important;
+			}
+		}
+		.uiScrollableAreaTrack {
+			z-index: 100 !important;
+		}
+		.fbChatSidebarFooter table td {
+			background: white !important;
+		}
+	}
+}
+
+/*抽取式*/
+
+/*
+.uiContextualDialogPositioner {
+		margin-left: -45px !important;}
+*/
+
+/*pagelet_ticker*/
+
+#pagelet_ticker {
+	display: block !important;
+	height: 0px !important;
+}
+
+.fbChatSidebar .fbFeedTicker {
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 5px 0px !important;
+	-webkit-transition: margin-left 0.3s !important;
+	background: white !important;
+	height: 100% !important;
+	overflow: hidden !important;
+	position: fixed !important;
+	margin-left: 55px !important;
+	z-index: 200 !important;
+	.fbFeedTickerStory{
+		background-color: #FFF !important;
+	}
+	.tickerStoryContent{ max-width: auto !important; }
+	&:hover, &:focus, &:active {
+		margin-left: -145px !important;
+		z-index: 9999;
+		
+	}
+}
+
+.fbChatSidebarBody {
+	height: 100% !important;
+}
+
+/* fbChatSidebar */
+
+.sidebarMode {
+	.fbChatSidebar {
+		width: 60px	!important;
+	}
+	.fbChatSidebarBody {
+		padding-right: 5px !important;
+	}
+}
+
+.fbChatSidebarFooter {
+	margin-right: 5px !important;
+	background: white !important;
+}
+
+.fbChatSidebar {
+	.uiContextualDialogPositioner {
+		margin-left: 0	!important;
+	}
+	table {
+		background: #FFF;
+	}
+}
+
+
+
+body{
+	.fbChatOrderedList{
+		.active .status {
+			background: $activeColor;
+			border-radius: 10px;
+			height: 7px;
+			width: 7px;
+		}
+		.active.mobile .status{
+			background: $activeMobileColor;
+		}
+		._5t30 { // Web  Mobile
+			display: none;
+		}
+	}
+}
